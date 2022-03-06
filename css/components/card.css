@@ -1,0 +1,50 @@
+.card {
+	background-color: rgb(230, 230, 230);
+	padding: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	flex-basis: 280px;
+	flex-grow: 1;
+	height: 200px;
+	background-size: cover;
+}
+
+
+.card img {
+	width: 200px;
+	height: 125px;
+	border-radius: 10px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 22px;
+	color: white;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#newyork {
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0, 0.3) 50%), url(../../images/newyork5.jpg);
+}
+
+#paris {
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0, 0.3) 50%), url(../../images/paris2.jpg);
+}
+
+#carribean {
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0, 0.3) 50%), url(../../images/carribean.jpg);
+}
+
+#alps {
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgb(0, 0, 0, 0.3) 50%), url(../../images/alps.jpg);
+}
